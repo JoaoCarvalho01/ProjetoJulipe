@@ -1,10 +1,20 @@
 .style-alt-div {
   display: flex;
-  background-color: white;
+
   width: 100%;
   justify-content: space-between;
+  margin: -60px 10px 10px 10px;
 }
 
 .style-alt-bnt {
   background-color: #1db954;
+  margin: 0px 30px;
+  border-radius: 50%;
+  padding: 6px;
+  height: 30px;
+  width: 35px;
+}
+
+.style-alt-bnt img {
+  object-fit: contain;
 }
