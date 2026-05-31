@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.style-title {
+  font-family: "Outfit", sans-serif;
+}
+
+.style-title h1 {
+  color: white;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.style-title p {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+}
