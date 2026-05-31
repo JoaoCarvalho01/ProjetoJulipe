@@ -46,7 +46,6 @@ function Botoes() {
   return (
     <div className="style-bnt">
       <audio src={audio} ref={audioRef} onTimeUpdate={atualizarProgresso} />
-
       <input
         type="range"
         min="0"
@@ -57,10 +56,16 @@ function Botoes() {
           background: `linear-gradient(to right, #1db954 ${progresso}%, #ffffff ${progresso}%)`,
         }}
       />
+      s
       <div className="style-bnt-click">
-        <img src={anterior} alt="anterior" onClick={voltar} />
-        <img src={imgPlay} alt="play/pause" onClick={playpause} />
-        <img src={proximo} alt="próximo" onClick={avancar} />
+        <img src={anterior} alt="anterior" onClick={voltar} className="bnt" />
+        <img
+          src={imgPlay}
+          alt="play/pause"
+          onClick={playpause}
+          className="bnt"
+        />
+        <img src={proximo} alt="próximo" onClick={avancar} className="bnt" />
       </div>
     </div>
   );

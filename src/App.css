@@ -5,5 +5,5 @@
 
 body {
   min-height: 100vh;
-  background-color: #111111;
+  background-image: linear-gradient(180deg, #111111, #111111, black);
 }

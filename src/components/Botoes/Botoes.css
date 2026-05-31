@@ -7,7 +7,11 @@
 .style-bnt img {
   width: 45px;
 }
-
+.bnt {
+  background-color: #1db954;
+  padding: 2px;
+  border-radius: 50%;
+}
 .style-bnt-click {
   margin-top: 10px;
   padding: 10px;

@@ -3,11 +3,16 @@ import "./Texto.css";
 function Texto() {
   return (
     <div className="style-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto
-      suscipit iure quos in asperiores deserunt, mollitia, eius dolore corporis
-      quo ipsa possimus dolorum aspernatur fugit incidunt eligendi illo tempore
-      tenetur pariatur omnis modi, nisi earum! Autem odio eaque quam, numquam
-      consectetur corrupti error! Nulla quaerat et quae expedita voluptate
+      <p>
+        Mas eu me engano, me desespero Porque te amo, porque te quero E a minha
+        vida é só pensar em você (em você) O tempo todo, o dia inteiro Sinto seu
+        corpo, sinto seu cheiro E a minha vida é só pensar em você E se a
+        lembrança insistir Em procurar por nós dois Vai encontrar seu adeus
+        Dizendo "volto depois" É impossível, eu sei Mentir que nunca te amei Que
+        foi um sonho e acabou Mas tenho que aceitar Cuidar de mim e tentar Me
+        encontrar n'outro amor Mas eu me engano, me desespero Porque te amo,
+        porque te quero E a minha vida é só pensar em você
+      </p>
     </div>
   );
 }
