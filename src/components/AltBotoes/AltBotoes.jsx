@@ -1,6 +1,6 @@
 import aleatorio from "./imgs/aleatorio.png";
 import like from "./imgs/gostar.png";
-import "./Altbotoes.css";
+import "./AltBotoes.css";
 function AltBotoes() {
   return (
     <div className="style-alt-div">
